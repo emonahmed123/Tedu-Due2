@@ -1,0 +1,38 @@
+.Card{
+    width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+
+
+}
+.Hary{
+    width: 358px;
+    height: 228px;
+     background: linear-gradient(270deg, #800080 0%, #FF864C 100%); 
+     border-radius: 20px; 
+
+
+}
+.Light{
+    border-right: 2px solid white;
+   
+}
+.lag{
+   
+   
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+}
+
+
+
+@media only screen and (max-width: 425px){
+	
+    .lag{
+   
+        background: linear-gradient(270deg, #800080 0%, rgba(61, 49, 49, 0) 42.79%);
+border-radius: 0px 20px 20px 0px;
+  
+     }
+
+}
