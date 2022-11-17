@@ -5,9 +5,9 @@ const Work = () => {
     <div>
       <h1 className='text-[20px] text-[#800080] mt-5 mb-8 ml-8  md:ml-48 font-medium'>Friends who enrolled(3)</h1>
       
-         <div className=' grid  grid-cols-1 gap-4  md:grid-cols-3   ml-[40px]  md:ml-[180px]' >
+         <div className=' grid  grid-cols-1 gap-4  md:grid-cols-3   ml-[20px]  md:ml-[180px]' >
 
-         <div className='Card' >
+         <div className='Card w-[330px] md:w-[358px]' >
         <div className='flex justify-between items-center mx-5 pt-5'>
           <h1 className='text-white font-bold text-2xl' >Dhiraj Saxsena</h1>
           <h1 className='text-white font-normal text-sm' >14 Sep, 2022</h1>
@@ -35,6 +35,7 @@ const Work = () => {
              <h1 className='text-white'>Referral Amount  <span className='text-white text-2xl ml-2'>₹185</span></h1>
           </div>
       </div>
+
 
       <div className='Card' >
         <div className='flex justify-between items-center mx-5 pt-5'>
@@ -70,7 +71,7 @@ const Work = () => {
 
 
 
-      <div className='Hary flex  ' >
+      <div className='Hary flex   ' >
         <div className=' md:w-2/3  lag '>
         <div className='flex justify-between items-center mx-5 pt-5'>
           <h1 className='text-white font-bold text-2xl' >Dhiraj Saxsena</h1>
@@ -107,7 +108,7 @@ const Work = () => {
          </div>
          </div>
         </div>
-         <h1 className='text-[#800080] ml-44 text-sm mt-8 font-semibold '>Terms & Conditions </h1>
+         <h1 className='text-[#800080] ml-6 md:ml-44 text-sm mt-8 font-semibold '>Terms & Conditions </h1>
    
     </div>
   )
